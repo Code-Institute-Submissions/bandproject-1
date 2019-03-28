@@ -1,12 +1,11 @@
-
 html,
-body
- {
+body {
     margin: 0;
     padding: 0;
     height: 100%;
     overflow-x: hidden;
 }
+
 footer,
 main {
     margin: 0;
@@ -15,18 +14,25 @@ main {
 
 /*------------------------------------------------------------------------------------------------  header*/
 
-.page-head {
-    background-color: pink;
-    margin: 0;
+.navbar{
+   overflow: hidden;
+     background-color: #093D6B;
+     position: fixed;
+     top: 0;
+     width: 80%;
 }
 
+.bg-light {
+    background-color: #093D6B!important;
+}
 
 .header {
     background-color: #093D6B;
     text-align: center;
     padding: 20px;
 }
-.banner-wrap{
+
+.banner-wrap {
     background-color: grey;
     text-align: left;
     padding: 0;
@@ -55,16 +61,16 @@ main {
 /*------------------------------------------------------------------------------------------------  img about*/
 
 .container-right {
-    
+
     padding-top: 10px;
     padding-right: 250px;
     float: right;
-    
+
 }
 
 .container-left {
     padding-top: 10px;
-   padding-left: 250px;
+    padding-left: 250px;
     float: left
 }
 
@@ -74,59 +80,51 @@ main {
 
 .main {
     padding-top: 50px;
-   
+
 
     background-color: #093D6B;
 }
+
 /*------------------------------------------------------------------------------------------------ Main Home*/
-.latest{
+
+.header-home{
     text-align: center;
-     text-decoration: bold;
+    padding: 0;
+    margin: 0;
 }
-.under-text-header{
+.iframe-video{
+    margin-left: 20px;
+}
+
+.song-title{
     text-align: center;
-    text-decoration: bold;
     padding: 0;
     margin: 0;
 }
 
-.under-text{
+.album-text{
     padding: 0;
-    margin: 0;
+   margin-top: 10px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 0px;
+    background-color: grey;
 }
-.sub-text{
+
+.album-art{
      padding: 0;
     margin: 0;
 }
-
-.main-intro{
-    width: 100%;
-    height: 800px;
-     background-color: #196677; 
-}
-
-.main-video{
-    margin-left: 40px;
-    width: 500px; 
-    height: 400px;
-    border: 0; 
-    transition: "accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-}
-.text-home {
-   background-color: #196677;
-   margin: 0;
-   padding: 0;
-}
-
 /*------------------------------------------------------------------------------------------------ Main Contact*/
 
-.about-text{
+.about-text {
     padding-top: 200px;
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 100px;
-   background-color: #196677;
+    background-color: #196677;
 }
+
 /*------------------------------------------------------------------------------------------------ Main Contact form*/
 
 .contact-text {
@@ -183,19 +181,21 @@ input[type=submit]:hover {
 
 
 /*------------------------------------------------------------------------------------------------  Hr*/
+
 .hr {
-    
-    color:  #093D6B;
+
+    color: #093D6B;
     background-color: black;
     border: 0;
     height: 1px;
     text-align: center;
     margin: 0 auto;
-   
+
 
 }
 
 /*------------------------------------------------------------------------------------------------  footer*/
+
 .footer {
     background-color: #093D6B;
     position: relative;
