@@ -6,37 +6,38 @@ body {
     overflow-x: hidden;
 }
 
+
+header,
 footer,
 main {
     margin: 0;
     background-color: #093D6B
 }
 
+#wrapper{
+   width:960px;
+   margin:0 auto;
+}
+
 /*------------------------------------------------------------------------------------------------  header*/
 
-.navbar{
-   overflow: hidden;
-     background-color: #093D6B;
-     position: fixed;
-     top: 0;
-     width: 80%;
-}
 
-.bg-light {
-    background-color: #093D6B!important;
-}
 
 .header {
-    background-color: #093D6B;
-    text-align: center;
+   
+    background-color: #143756;
+    text-align: left;
     padding: 20px;
 }
 
-.banner-wrap {
-    background-color: grey;
-    text-align: left;
-    padding: 0;
-    margin: 0;
+.color-change-red{
+    color: #980606;
+}
+.color-change-blue{
+    color: #1e3950;
+}
+.color-change-black{
+    color: black;
 }
 
 /*------------------------------------------------------------------------------------------------  img contact*/
@@ -79,41 +80,33 @@ main {
 /*------------------------------------------------------------------------------------------------  main*/
 
 .main {
-    padding-top: 50px;
+    
 
 
     background-color: #093D6B;
 }
 
 /*------------------------------------------------------------------------------------------------ Main Home*/
+.fwh-slide{
+    height: 100vh;
+    padding: 35px;
+    background: url("../images/pic.jpg");
+    
+}
+.fwh-slide--bg-blue{
+    background: #980606;
+    color: white;
+}
 
-.header-home{
+.fwh-slide--bg-black{
+    background: #1e3950;
+    color: white;
+}
+.stream-links{
     text-align: center;
-    padding: 0;
-    margin: 0;
 }
-.iframe-video{
-    margin-left: 20px;
-}
-
-.song-title{
+.netflix{
     text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-.album-text{
-    padding: 0;
-   margin-top: 10px;
-   margin-left: 20px;
-   margin-right: 20px;
-   margin-bottom: 0px;
-    background-color: grey;
-}
-
-.album-art{
-     padding: 0;
-    margin: 0;
 }
 /*------------------------------------------------------------------------------------------------ Main Contact*/
 
@@ -182,22 +175,10 @@ input[type=submit]:hover {
 
 /*------------------------------------------------------------------------------------------------  Hr*/
 
-.hr {
-
-    color: #093D6B;
-    background-color: black;
-    border: 0;
-    height: 1px;
-    text-align: center;
-    margin: 0 auto;
-
-
-}
-
 /*------------------------------------------------------------------------------------------------  footer*/
 
 .footer {
-    background-color: #093D6B;
+    background-color: #143756;
     position: relative;
     height: 100px;
     margin-top: -100;
