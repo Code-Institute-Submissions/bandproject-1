@@ -25,7 +25,7 @@ main {
 
 .header {
    
-    background-color: #143756;
+    background-color: #143e63;
     text-align: left;
     padding: 20px;
 }
@@ -39,42 +39,6 @@ main {
 .color-change-black{
     color: black;
 }
-
-/*------------------------------------------------------------------------------------------------  img contact*/
-
-.container-image-contact {
-    margin: 0;
-    height: 100vh;
-    background: url("../images/pic.jpg") no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-
-}
-
-/*------------------------------------------------------------------------------------------------  img about*/
-
-.container-right {
-
-    padding-top: 10px;
-    padding-right: 250px;
-    float: right;
-
-}
-
-.container-left {
-    padding-top: 10px;
-    padding-left: 250px;
-    float: left
-}
-
 
 
 /*------------------------------------------------------------------------------------------------  main*/
@@ -90,15 +54,25 @@ main {
 .fwh-slide{
     height: 100vh;
     padding: 35px;
+    background: #1e3950;
+    
+}
+.fwh-slide-img{
+    height: 100vh;
+    padding: 35px;
     background: url("../images/pic.jpg");
     
 }
-.fwh-slide--bg-blue{
+.fwh-slide--bg-red{
     background: #980606;
     color: white;
 }
+.fwh-slide--bg-red-contact {
+        background: #b13030;
+    color: white;
+}
 
-.fwh-slide--bg-black{
+.fwh-slide--bg-grey{
     background: #1e3950;
     color: white;
 }
@@ -108,6 +82,29 @@ main {
 .netflix{
     text-align: center;
 }
+/*------------------------------------------------------------------------------------------------ Main about*/
+.flex-box {
+    text-align: center;
+}
+
+.him-1{
+    width: 300px;
+    height: 168px;
+}
+
+
+.him-2{
+    width: 300px;
+    height: 168px;
+}
+
+.ticket-text{
+    text-align: center;
+}
+/*------------------------------------------------------------------------------------------------ Main gallery*/
+   
+    
+
 /*------------------------------------------------------------------------------------------------ Main Contact*/
 
 .about-text {
@@ -173,12 +170,11 @@ input[type=submit]:hover {
 }
 
 
-/*------------------------------------------------------------------------------------------------  Hr*/
 
 /*------------------------------------------------------------------------------------------------  footer*/
 
 .footer {
-    background-color: #143756;
+    background-color: #143e63;
     position: relative;
     height: 100px;
     margin-top: -100;
