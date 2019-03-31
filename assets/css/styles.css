@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    overflow: auto;
     overflow-x: hidden;
 }
 
@@ -18,6 +19,8 @@ main {
    width:960px;
    margin:0 auto;
 }
+
+
 
 /*------------------------------------------------------------------------------------------------  header*/
 
@@ -52,29 +55,45 @@ main {
 
 /*------------------------------------------------------------------------------------------------ Main Home*/
 .fwh-slide{
+    
     height: 100vh;
     padding: 35px;
     background: #1e3950;
+    text-overflow: ellipsis;
     
 }
+
 .fwh-slide-img{
+    
     height: 100vh;
+    
     padding: 35px;
-    background: url("../images/pic.jpg");
+    background: url("../images/pic.jpg") no-repeat center ;
+    background-size: 100%;
+    text-overflow: ellipsis;
+    
     
 }
 .fwh-slide--bg-red{
+    
+     height: 100vh;
     background: #980606;
     color: white;
+     text-overflow: ellipsis;
 }
 .fwh-slide--bg-red-contact {
+   
+     height: 100vh;
         background: #b13030;
     color: white;
+    text-overflow: ellipsis;
 }
 
 .fwh-slide--bg-grey{
+    margin: auto;
     background: #1e3950;
     color: white;
+    text-overflow: ellipsis;
 }
 .stream-links{
     text-align: center;
@@ -101,8 +120,26 @@ main {
 .ticket-text{
     text-align: center;
 }
-/*------------------------------------------------------------------------------------------------ Main gallery*/
+/*------------------------------------------------------------------------------------------------ gallery*/
+
+   /*------------------------------------------------------------------------------------------------ gallery show*/
+   .fanart-top {
+       margin-top: 10px;
+       margin-bottom: 5px;
+       margin-left: 10px;
+   }
    
+   fanart-top:hover {
+       width: 300px;
+       height: 250px;
+   }
+   
+   .fanart-bottom {
+       margin-top: 5px;
+       margin-bottom: 10px;
+       margin-left: 10px;
+   }
+    
     
 
 /*------------------------------------------------------------------------------------------------ Main Contact*/
