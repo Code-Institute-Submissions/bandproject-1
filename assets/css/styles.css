@@ -17,7 +17,7 @@ main {
 
 #wrapper{
    width:960px;
-   margin:0 auto;
+   
 }
 
 
@@ -59,41 +59,66 @@ main {
     height: 100vh;
     padding: 35px;
     background: #1e3950;
-    text-overflow: ellipsis;
+    text-overflow: auto;
     
 }
 
 .fwh-slide-img{
     
     height: 100vh;
-    
+   
     padding: 35px;
-    background: url("../images/pic.jpg") no-repeat center ;
+    background: url("../images/pic.jpg") no-repeat   ;
     background-size: 100%;
-    text-overflow: ellipsis;
+   overflow: auto;
     
     
 }
+#image { 
+            background-image: url(../images/pic.jpg); 
+        }
+        @media only screen and (max-width: 320px) {
+            #image { 
+                background-image: url(../images/pic.jpg); 
+            }
+        }
+
+@media only screen and (min-width: 1440px) {
+    /* styles for MacBook Pro-sized screens and larger */
+}
+@media only screen and (min-width: 1200px) {
+    /* styles for wide screens */
+}
+@media only screen and (min-width: 320px) {
+    /* styles for narrow screens */
+    .fwh-slide-img{
+        background-image: url(../images/pic.jpg);
+        height: 100vh;
+        background-size: 100%;
+    }
+}
+
+
 .fwh-slide--bg-red{
     
      height: 100vh;
     background: #980606;
     color: white;
-     text-overflow: ellipsis;
+     overflow: auto;
 }
 .fwh-slide--bg-red-contact {
    
      height: 100vh;
         background: #b13030;
     color: white;
-    text-overflow: ellipsis;
+    overflow: auto;
 }
 
 .fwh-slide--bg-grey{
     margin: auto;
     background: #1e3950;
     color: white;
-    text-overflow: ellipsis;
+    overflow: auto;
 }
 .stream-links{
     text-align: center;
@@ -129,7 +154,7 @@ main {
        margin-left: 10px;
    }
    
-   fanart-top:hover {
+   .fanart:hover {
        width: 300px;
        height: 250px;
    }
