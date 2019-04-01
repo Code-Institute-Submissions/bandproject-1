@@ -1,181 +1,105 @@
-html,
-body {
+.body {
     margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: auto;
-    overflow-x: hidden;
-}
-
-
-header,
-footer,
-main {
-    margin: 0;
-    background-color: #093D6B
-}
-
-#wrapper{
-   width:960px;
-   
-}
-
-
-
-/*------------------------------------------------------------------------------------------------  header*/
-
-
-
-.header {
-   
-    background-color: #143e63;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
     text-align: left;
-    padding: 20px;
+    background-color: black;
+}
+/* nav
+-------------------------------------------------- */
+
+.navbar {
+    background-color: #000102!important;
 }
 
-.color-change-red{
-    color: #980606;
+.nav-item{
+  text-align: right;
 }
-.color-change-blue{
-    color: #1e3950;
-}
-.color-change-black{
-    color: black;
-}
-
-
-/*------------------------------------------------------------------------------------------------  main*/
-
+/* main
+-------------------------------------------------- */
 .main {
-    
-
-
-    background-color: #093D6B;
+  background-color: white;
 }
-
-/*------------------------------------------------------------------------------------------------ Main Home*/
-.fwh-slide{
-    
-    height: 100vh;
-    padding: 35px;
-    background: #1e3950;
-    text-overflow: auto;
-    
-}
-
-.fwh-slide-img{
-    
-    height: 100vh;
-   
-    padding: 35px;
-    background: url("../images/pic.jpg") no-repeat   ;
-    background-size: 100%;
-   overflow: auto;
-    
-    
-}
-#image { 
-            background-image: url(../images/pic.jpg); 
-        }
-        @media only screen and (max-width: 320px) {
-            #image { 
-                background-image: url(../images/pic.jpg); 
-            }
-        }
-
-@media only screen and (min-width: 1440px) {
-    /* styles for MacBook Pro-sized screens and larger */
-}
-@media only screen and (min-width: 1200px) {
-    /* styles for wide screens */
-}
-@media only screen and (min-width: 320px) {
-    /* styles for narrow screens */
-    .fwh-slide-img{
-        background-image: url(../images/pic.jpg);
-        height: 100vh;
-        background-size: 100%;
+/* jumbotron
+-------------------------------------------------- */
+.jumbotron {
+  height: 100vh;
+  background-image: url("../images/pic.jpg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
     }
-}
-
-
-.fwh-slide--bg-red{
-    
-     height: 100vh;
-    background: #980606;
+  
+  .container-jumbotron{
+    margin-top: 280px;
+    text-align: center;
+    text-decoration: bold;
     color: white;
-     overflow: auto;
-}
-.fwh-slide--bg-red-contact {
-   
-     height: 100vh;
-        background: #b13030;
-    color: white;
-    overflow: auto;
-}
-
-.fwh-slide--bg-grey{
-    margin: auto;
-    background: #1e3950;
-    color: white;
-    overflow: auto;
-}
-.stream-links{
-    text-align: center;
-}
-.netflix{
-    text-align: center;
-}
-/*------------------------------------------------------------------------------------------------ Main about*/
-.flex-box {
-    text-align: center;
-}
-
-.him-1{
-    width: 300px;
-    height: 168px;
-}
-
-
-.him-2{
-    width: 300px;
-    height: 168px;
-}
-
-.ticket-text{
-    text-align: center;
-}
-/*------------------------------------------------------------------------------------------------ gallery*/
-
-   /*------------------------------------------------------------------------------------------------ gallery show*/
-   .fanart-top {
-       margin-top: 10px;
-       margin-bottom: 5px;
-       margin-left: 10px;
-   }
-   
-   .fanart:hover {
-       width: 300px;
-       height: 250px;
-   }
-   
-   .fanart-bottom {
-       margin-top: 5px;
-       margin-bottom: 10px;
-       margin-left: 10px;
-   }
     
-    
+  }  
+  
+/* MARKETING CONTENT
+-------------------------------------------------- */
 
-/*------------------------------------------------------------------------------------------------ Main Contact*/
-
-.about-text {
-    padding-top: 200px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
-    background-color: #196677;
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+
+.featurette-divider {
+  margin: 5rem 0;
+  color: white;
+  
+  /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+ 
+  
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
 
 /*------------------------------------------------------------------------------------------------ Main Contact form*/
 
@@ -230,30 +154,18 @@ input[type=submit]:hover {
 
 
 }
-
-
-
-/*------------------------------------------------------------------------------------------------  footer*/
-
-.footer {
-    background-color: #143e63;
-    position: relative;
-    height: 100px;
-    margin-top: -100;
-    clear: both;
-    text-align: center;
-}
-
-.container-footer {
-    text-align: center;
-}
-
-.h6-footer {
-    text-align: center;
-    color: black;
-}
-
-.h7-footer {
+.fwh-slide--bg-red-contact {
+   
+     height: 100vh;
+        background: #b13030;
     color: white;
-
+    overflow: auto;
+}
+.fwh-slide{
+    
+    height: 100vh;
+    padding: 35px;
+    background: #1e3950;
+    text-overflow: auto;
+    
 }
