@@ -1,14 +1,5 @@
-.body {
-    margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    background-color: black;
-}
-/* nav
+
+/*                                             nav
 -------------------------------------------------- */
 
 .navbar {
@@ -18,11 +9,13 @@
 .nav-item{
   text-align: right;
 }
-/* main
+
+/*                                            main
 -------------------------------------------------- */
 .main {
-  background-color: white;
+  background-color: grey;
 }
+
 /* jumbotron
 -------------------------------------------------- */
 .jumbotron {
@@ -30,7 +23,7 @@
   background-image: url("../images/pic.jpg") ;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
     }
   
   .container-jumbotron{
@@ -40,9 +33,27 @@
     color: white;
     
   }  
+/*                                                                             video container
+----------------------------------------------------------------------------------------------- */
+.video-container{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+  }
   
-/* MARKETING CONTENT
--------------------------------------------------- */
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+    
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
+/*                                                                             MARKETING CONTENT
+------------------------------------------------------------------------------------------------ */
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
@@ -58,7 +69,7 @@
 }
 
 
-/* Featurettes
+/*             Featurettes
 ------------------------- */
 
 
@@ -75,10 +86,12 @@
   line-height: 1;
   letter-spacing: -.05rem;
 }
+/*------------------------------------------------------------------------------------------------ audio-iframe*/
+.audio-iframe {
+  padding-top: 30px;
+}
 
-
-
-/* RESPONSIVE CSS
+/*                                       RESPONSIVE CSS
 -------------------------------------------------- */
 
 @media (min-width: 40em) {
@@ -97,9 +110,7 @@
   }
 }
 
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
+/*------------------------------------------------------------------------------------------------ Gallery*/
 
 /*------------------------------------------------------------------------------------------------ Main Contact form*/
 
@@ -148,24 +159,25 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
 
-
-}
 .fwh-slide--bg-red-contact {
    
      height: 100vh;
         background: #b13030;
     color: white;
-    overflow: auto;
+    
 }
 .fwh-slide{
     
     height: 100vh;
     padding: 35px;
+    margin: 0;
     background: #1e3950;
-    text-overflow: auto;
     
+    
+}
+
+/*------------------------------------------------------------------------------------------------ footer*/
+.container-footer{
+  background-color: black;
 }
