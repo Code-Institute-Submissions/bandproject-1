@@ -13,7 +13,7 @@
 /*                                            main
 -------------------------------------------------- */
 .main {
-  background-color: #136CFF;
+  background-color: #2923a5;
 }
 
 
@@ -144,7 +144,7 @@
 
 /*------------------------------------------------------------------------------------------------ Gallery*/
 .album-top{
-  background-color: pink;
+  background-color: #2923a5;
 }
 .album-bottom{
     background-color: orange;
@@ -210,7 +210,7 @@ input[type=submit]:hover {
     height: 100vh;
     padding: 35px;
     margin: 0;
-    background: orange;
+    background: #2923a5
     
     
 }
