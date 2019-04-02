@@ -13,8 +13,9 @@
 /*                                            main
 -------------------------------------------------- */
 .main {
-  background-color: grey;
+  background-color: #136CFF;
 }
+
 
 /* jumbotron
 -------------------------------------------------- */
@@ -25,7 +26,14 @@
   background-position: center;
   background-size: cover;
     }
-  
+    
+  .jumbotron-about {
+  height: 100vh;
+  background-image: url("../images/show/show5.jpg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+    }
   .container-jumbotron{
     margin-top: 280px;
     text-align: center;
@@ -33,6 +41,9 @@
     color: white;
     
   }  
+  .display-4{
+    color: black;
+  }
 /*                                                                             video container
 ----------------------------------------------------------------------------------------------- */
 .video-container{
@@ -52,7 +63,18 @@
     height: 100%;
     
   }
-/*                                                                             MARKETING CONTENT
+  
+  /*                                                                             About
+------------------------------------------------------------------------------------------------ */
+  .heading-about {
+    
+  }
+  
+  .text-about{
+    text-indent: 90px;
+  }
+  
+/*                                                                            MARKETING CONTENT
 ------------------------------------------------------------------------------------------------ */
 
 /* Center align the text within the three columns below the carousel */
@@ -89,6 +111,7 @@
 /*------------------------------------------------------------------------------------------------ audio-iframe*/
 .audio-iframe {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /*                                       RESPONSIVE CSS
@@ -110,8 +133,23 @@
   }
 }
 
-/*------------------------------------------------------------------------------------------------ Gallery*/
 
+
+/*------------------------------------------------------------------------------------------------ Main Contact form*/
+.about-image{
+  padding-top: 80px;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------ Gallery*/
+.album-top{
+  background-color: pink;
+}
+.album-bottom{
+    background-color: orange;
+    width: 100%;
+}
 /*------------------------------------------------------------------------------------------------ Main Contact form*/
 
 .contact-text {
@@ -163,7 +201,7 @@ input[type=submit]:hover {
 .fwh-slide--bg-red-contact {
    
      height: 100vh;
-        background: #b13030;
+        background: #136CFF;
     color: white;
     
 }
@@ -172,12 +210,14 @@ input[type=submit]:hover {
     height: 100vh;
     padding: 35px;
     margin: 0;
-    background: #1e3950;
+    background: orange;
     
     
 }
 
 /*------------------------------------------------------------------------------------------------ footer*/
 .container-footer{
+  padding: 0;
+  margin: 0;
   background-color: black;
 }
