@@ -1,19 +1,21 @@
-
 /*                                             nav
 -------------------------------------------------- */
 
 .navbar {
-    background-color: #000102!important;
+  background-color: #000102!important;
 }
 
-.nav-item{
+.nav-item {
   text-align: right;
 }
-
+.nav-item{
+   font-size: x-large;
+}
 /*                                            main
 -------------------------------------------------- */
+
 .main {
-  background-color: #2923a5;
+  background-color: #040325;
 }
 
 
@@ -22,86 +24,104 @@
 -------------------------------------------------- */
 
 /* Carousel base class */
+
 .carousel {
   margin-bottom: 4rem;
 }
+
 /* Since positioning the image, we need to help out the caption */
+
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
 }
 
 /* Declare heights because of positioning of img element */
+
 .carousel-item {
   height: 32rem;
 }
-.carousel-item > img {
+
+.carousel-item>img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
   height: 32rem;
 }
-                                      /* jumbotron
+
+/* jumbotron
 -------------------------------------------------- */
-  .jumbotron-about {
+
+.jumbotron-about {
   height: 100vh;
-  background-image: url("../images/show/show5.jpg") ;
+  background-image: url("../images/show/show5.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-    }
-  .container-jumbotron{
-    margin-top: 280px;
-    text-align: center;
-    text-decoration: bold;
-    color: white;
-    
-  }  
-  .display-4{
-    color: black;
-  }
+}
+
+.container-jumbotron {
+  margin-top: 280px;
+  text-align: center;
+  text-decoration: bold;
+  color: white;
+
+}
+
+.display-4 {
+  color: black;
+}
+
 /*                                                                             video container
 ----------------------------------------------------------------------------------------------- */
-.video-container{
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
-  }
-  
-  .video-container iframe,
-  .video-container object,
-  .video-container embed {
-    
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    
-  }
-  
-  /*                                                                             About
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+/*                                                                             About
 ------------------------------------------------------------------------------------------------ */
-  .heading-about {
-    
-  }
-  
-  .text-about{
-    text-indent: 90px;
-  }
-  
+
+.heading-about {
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+.text-about {
+  text-indent: 90px;
+}
+
 /*                                                                            MARKETING CONTENT
 ------------------------------------------------------------------------------------------------ */
 
 /* Center align the text within the three columns below the carousel */
+
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 .marketing h2 {
   font-weight: 400;
 }
+
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
@@ -111,21 +131,23 @@
 /*             Featurettes
 ------------------------- */
 
-
 .featurette-divider {
   margin: 5rem 0;
   color: white;
-  
+
   /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
+
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
 }
+
 /*------------------------------------------------------------------------------------------------ audio-iframe*/
+
 .audio-iframe {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -136,9 +158,6 @@
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
- 
-  
-
   .featurette-heading {
     font-size: 50px;
   }
@@ -152,25 +171,48 @@
 
 
 
-/*------------------------------------------------------------------------------------------------ Main Contact form*/
-.about-image{
+/*------------------------------------------------------------------------------------------------about*/
+
+.about-image {
   padding-top: 80px;
 }
 
 
 
 /*------------------------------------------------------------------------------------------------ Gallery*/
-.album-top{
+.gallery-header{
+  font-family: sans-serif;
+}
+.album-top {
   background-color: #2923a5;
 }
-.album-bottom{
-    background-color: orange;
-    width: 100%;
+
+.album-bottom {
+  background-color: #ec6b0b;
+  width: 100%;
+}
+
+.fan-art {
+  color: #040325;
+}
+/*------------------------------------------------------------------------------------------------ Gallery 2.0*/
+.gallery{
+ 
+}
+.gallery img {
+  transition: 1s;
+  margin: 0;
+  border-color: transparent;
+}
+
+.gallery img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1);
 }
 /*------------------------------------------------------------------------------------------------ Main Contact form*/
 
 .contact-text {
-    text-align: center
+  text-align: center
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -178,92 +220,102 @@
 input[type=text],
 select,
 textarea {
-    width: 100%;
-    /* Full width */
-    padding: 12px;
-    /* Some padding */
-    border: 1px solid #ccc;
-    /* Gray border */
-    border-radius: 4px;
-    /* Rounded borders */
-    box-sizing: border-box;
-    /* Make sure that padding and width stays in place */
-    margin-top: 6px;
-    /* Add a top margin */
-    margin-bottom: 16px;
-    /* Bottom margin */
-    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
 
 input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 
 input[type=submit]:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
 
 /* Add a background color and some padding around the form */
 
-
 .fwh-slide--bg-red-contact {
-   
-     height: 100vh;
-        background: #136CFF;
-    color: white;
-    
+
+  height: 100vh;
+  background-color: #040325;
+  color: #ec6b0b;
+
 }
-.fwh-slide{
-    
-    height: 100vh;
-    padding: 35px;
-    margin: 0;
-    background: #2923a5
-    
-    
+
+.fwh-slide {
+
+  height: 100vh;
+  padding: 35px;
+  margin: 0;
+  background-color: #040325;
+}
+/*------------------------------------------------------------------------------------------------ Tour*/
+.tour-dates-header{
+  font-family: sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.tour-date {
+ font-family: sans-serif;
+  font-size: xx-large;
 }
 
 /*------------------------------------------------------------------------------------------------ footer*/
+
 .container-footer {
-    background-color: #000102;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-    padding: 0;
-    
+  background-color: #000102;
+  color: #fafafa;
+  min-height: 120px;
+  margin: 0;
+  padding: 0;
+
 }
+
 .social-links {
-   
-    text-align: center;
+
+  text-align: center;
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background: #8f8f8f;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
-    background: #2923a5;
+  background: #040325;
 }
 
 
@@ -271,5 +323,7 @@ input[type=submit]:hover {
 /*------------------------------------------------------------------------------------------------ footer*/
 
 .main-text {
-  color: white;
+  color: #ec6b0b;
+  font-family: sans-serif;
+  font-size: xx-large;
 }
