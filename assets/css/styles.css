@@ -17,16 +17,33 @@
 }
 
 
-/* jumbotron
+
+/* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
-.jumbotron {
-  height: 100vh;
-  background-image: url("../images/pic.jpg") ;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-    }
-    
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+                                      /* jumbotron
+-------------------------------------------------- */
   .jumbotron-about {
   height: 100vh;
   background-image: url("../images/show/show5.jpg") ;
@@ -251,3 +268,8 @@ input[type=submit]:hover {
 
 
 
+/*------------------------------------------------------------------------------------------------ footer*/
+
+.tour-dates {
+  color: white;
+}
