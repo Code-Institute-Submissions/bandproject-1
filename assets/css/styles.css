@@ -117,7 +117,16 @@
   font-family: sans-serif;
   font-size: xx-large;
 }
-
+.fab{
+  color: black;
+}
+.fab:hover{
+   transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  color: #fafafa;
+}
 .about img {
   transition: 1s;
   margin: 0;
@@ -199,15 +208,9 @@
 /*------------------------------------------------------------------------------------------------ Gallery*/
 .gallery-header{
   font-family: sans-serif;
-}
-.album-top {
-  background-color: #2923a5;
+  color: #6B807B;
 }
 
-.album-bottom {
-  background-color: #ec6b0b;
-  width: 100%;
-}
 
 .fan-art {
   color: #040325;
@@ -273,18 +276,18 @@ input[type=submit]:hover {
 
 .fwh-slide--bg-red-contact {
 
-  height: 100vh;
-  background-color: #040325;
-  color: #ec6b0b;
+  
+  background-color: #323E5C;
+  color:  #6B807B;
 
 }
 
 .fwh-slide {
 
-  height: 100vh;
+  
   padding: 35px;
   margin: 0;
-  background-color: #040325;
+  ;
 }
 /*------------------------------------------------------------------------------------------------ Tour*/
 .tour-dates-header{
@@ -330,7 +333,8 @@ input[type=submit]:hover {
 }
 
 .social-links li a i:hover {
-  background: #040325;
+  color: black;
+  background: #fafafa;
 }
 
 
