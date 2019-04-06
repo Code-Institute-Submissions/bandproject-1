@@ -2,7 +2,7 @@
 
 # https://chrisoc19.github.io/bandproject/
 
-DEadmu5
+# Deadmu5
 One or two paragraphs providing an overview of your project.
 
 Essentially, this part is your sales pitch.
