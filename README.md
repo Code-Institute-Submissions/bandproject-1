@@ -77,12 +77,21 @@ Clone my repository with the following commands on your local machine:
     git remote add origin *URL TO NEW GITHUB REPO*
     git push origin master
     ```
-Credits
-
+# Credits
 
 Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
+
+For the gallery ideas where taken from https://mobirise.com/bootstrap-gallery/responsiveimagegallery.html
+The infromation on the dj in the about me page was taken from https://en.wikipedia.org/wiki/Deadmau5
+All other content was written by myself.
+
+Media 
+Images taken from Google Search, and believed to qualify under fair use, due to nonprofit educational use.
+Videos where taken from Youtube.
+Playable album is from Spotify.
+
+
 Acknowledgements
-I received inspiration for this project from X
+I received inspiration for this site from visiting various band sites.
+My mentor  Maranatha Ilesanmi was a huge help throughout the project.
+Thanks to all members of the Code Institute Slack workspace
