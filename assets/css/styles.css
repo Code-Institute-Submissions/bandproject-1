@@ -1,10 +1,11 @@
 /*                                             body
 -------------------------------------------------- */
 
-.body{
+.body {
   padding: 0;
   margin: 0;
 }
+
 /*                                             nav
 -------------------------------------------------- */
 
@@ -15,22 +16,26 @@
 .nav-item {
   text-align: right;
 }
-.nav-item{
-   font-size: x-large;
+
+.nav-item {
+  font-size: x-large;
 }
+
 /*                                            main
 -------------------------------------------------- */
 
 .main {
-  background-color:#323E5C;
+  background-color: #323E5C;
   margin-bottom: -16px;
 }
 
 
-.spoify-bg-color{
+
+.spoify-bg-color {
   background-color: #6B807B;
-  
+
 }
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -43,6 +48,7 @@
 /* Since positioning the image, we need to help out the caption */
 
 .carousel-caption {
+  margin-top: 20px;
   bottom: 3rem;
   z-index: 10;
 }
@@ -87,6 +93,10 @@
 /*                                                                             video container
 ----------------------------------------------------------------------------------------------- */
 
+.video-container-iframe-bottom {
+  margin-bottom: 20px;
+}
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -110,7 +120,7 @@
 /*                                                                             About
 ------------------------------------------------------------------------------------------------ */
 
-.about-h1{
+.about-h1 {
   padding-top: 10px;
 }
 
@@ -118,25 +128,21 @@
   font-family: sans-serif;
   font-size: xx-large;
 }
-.fab{
+
+.fab {
   color: black;
 }
-.fab:hover{
-   transition: all 0.35s ease-in-out;
+
+.fab:hover {
+  transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
   color: #fafafa;
 }
-.about img {
-  transition: 1s;
-  margin: 0;
-  border-color: transparent;
-}
 
-.about img:hover {
-  filter: grayscale(100%);
-  transform: scale(1.1);
+.img-about-bottom {
+  margin-bottom: 30px;
 }
 
 /*                                                                            MARKETING CONTENT
@@ -207,7 +213,8 @@
 
 
 /*------------------------------------------------------------------------------------------------ Gallery*/
-.gallery-header{
+
+.gallery-header {
   font-family: sans-serif;
   color: #6B807B;
 }
@@ -216,6 +223,7 @@
 .fan-art {
   color: #040325;
 }
+
 /*------------------------------------------------------------------------------------------------ Gallery 2.0*/
 
 .gallery img {
@@ -228,6 +236,7 @@
   filter: grayscale(100%);
   transform: scale(1.1);
 }
+
 /*------------------------------------------------------------------------------------------------ Main Contact form*/
 
 .contact-text {
@@ -262,6 +271,8 @@ input[type=submit] {
   background-color: #4CAF50;
   color: white;
   padding: 12px 20px;
+  margin-top: 10px;
+  margin-bottom: 40px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -288,20 +299,28 @@ input[type=submit]:hover {
   
   padding: 35px;
   margin: 0;
-  ;
+  
 }
+@media (min-width: 768px) {
+  /* Bump up size of carousel content */
+  .fwh-slide {
+   height: 100vh;
+  }
+}
+/*------------------------------------------------------------------------------------------------ Main Contact form 2.0*/
+
 /*------------------------------------------------------------------------------------------------ Tour*/
-.tour-dates-header{
+
+.tour-dates-header {
   font-family: sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.tour-date {
- font-family: sans-serif;
-  font-size: xx-large;
-}
+
 
 /*------------------------------------------------------------------------------------------------ Tour 2.0*/
+
+
 
 /*------------------------------------------------------------------------------------------------ footer*/
 
@@ -343,7 +362,9 @@ input[type=submit]:hover {
 
 
 /*------------------------------------------------------------------------------------------------ footer*/
-
+.container-footer{
+  margin-bottom: -16px;
+} 
 .main-text {
   color: #0a0a09;
   font-family: sans-serif;
@@ -355,4 +376,3 @@ input[type=submit]:hover {
   font-family: sans-serif;
   font-size: large;
 }
-
