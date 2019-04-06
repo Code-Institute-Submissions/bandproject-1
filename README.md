@@ -81,17 +81,17 @@ Clone my repository with the following commands on your local machine:
 
 # Content
 
--For the gallery ideas where taken from https://mobirise.com/bootstrap-gallery/responsiveimagegallery.html
--The infromation on the dj in the about me page was taken from https://en.wikipedia.org/wiki/Deadmau5
--All other content was written by myself.
+- For the gallery ideas where taken from https://mobirise.com/bootstrap-gallery/responsiveimagegallery.html
+- The infromation on the dj in the about me page was taken from https://en.wikipedia.org/wiki/Deadmau5
+- All other content was written by myself.
 
 # Media 
--Images taken from Google Search, and believed to qualify under fair use, due to nonprofit educational use.
--Videos where taken from Youtube.
--Playable album is from Spotify.
+- Images taken from Google Search, and believed to qualify under fair use, due to nonprofit educational use.
+- Videos where taken from Youtube.
+- Playable album is from Spotify.
 
 
 # Acknowledgements
--I received inspiration for this site from visiting various band sites.
--My mentor  Maranatha Ilesanmi was a huge help throughout the project.
--Thanks to all members of the Code Institute Slack workspace
+- I received inspiration for this site from visiting various band sites.
+- My mentor  Maranatha Ilesanmi was a huge help throughout the project.
+- Thanks to all members of the Code Institute Slack workspace
