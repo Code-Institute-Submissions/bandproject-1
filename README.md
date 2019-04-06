@@ -40,45 +40,18 @@ The page uses the a feature from Bootstrap, to highlight which part of the page 
 - [jQuery](https://jquery.com/)-Used for DOM manipulation
 
 # Testing
-Carousel - I had issues with carousel with first use as was place outside of the main div. I moved it into the main div and this effected the background color of my iframe spoify section which I fixed by changing the background color behind the carousel to the same as the iframe Spotify.
+-We  provided an audio and video sections, where a samples of the Djs work is available to listen to or watch. Works across all screens. Needed to remove a set width from Spotify section so would meet  basic responsiveness requirements.
+- About Text was disproportionately large had to style seperatly.
+- In gallery the images expand when mouse is hovered over them, images need to be clicked on for effect to work on smaller screens.
+-  a contact form was added, where clients can get in contact. Contact form isnt linked with anything.
+- Any Links to outside sources i.e icons and social links will open a new tab.
+- nav-bar fits full width on large screens and changes to a dropdown menu for smaller screens.all links function. 
+- Footer I had a white space under my footer that with some help from slack got rid of by giving the conatiner-footer a bottom margin or -16px
 
-
-Go to the "Home" page
-Try an view all images in carousel. 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 # Deployment
 This site is hosted on Github Pages, deployed from the master branch. There are no differences between the development and deployed version.
 
-To clone this repository to run locally, you can do the following:
-
-Create a new repository on Github
-
-Clone my repository with the following commands on your local machine:
-
-    ```
-    git clone https://chrisoc19.github.io/bandproject/.git
-    git remote rename origin upstream
-    git remote add origin *URL TO NEW GITHUB REPO*
-    git push origin master
-    ```
 # Credits
 
 # Content
