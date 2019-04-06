@@ -19,7 +19,7 @@ As a client, I would like to be able to hear his music and a way to contact and 
 I mocked up an early desktop-first layout using Balsamiq, which can be found [here](https://balsamiq.cloud/snckoo2/p15ebfw/r57E)
 
 # Features
-
+The page uses the a feature from Bootstrap, to highlight which part of the page is active on the navbar.
 
 # Existing Features
 Feature 1 - Carousel - allows user to see pictures of the DJ's 2019 cube which is his stage on tour, which they can scroll through.
@@ -32,10 +32,11 @@ Feature 7 -  Logo in nav bar is a link back to Homepage.
 # Technologies Used
 CSS - Used to style the HTML elements
 
-[Font Awesome](https://fontawesome.com/)- Used for icons- Facebook, Twitter,Youtube, Instagram. 
+- [Font Awesome](https://fontawesome.com/)- Used for icons- Facebook, Twitter,Youtube, Instagram. 
 
-[Bootstrap](https://getbootstrap.com/)- Used to give access to a multitude of helper classes for CSS
-[jQuery](https://jquery.com/)-Used for DOM manipulation
+- [Bootstrap](https://getbootstrap.com/)- Used to give access to a multitude of helper classes for CSS
+
+- [jQuery](https://jquery.com/)-Used for DOM manipulation
 
 # Testing
 Carousel - I had issues with carousel with first use as was place outside of the main div. I moved it into the main div and this effected the background color of my iframe spoify section which I fixed by changing the background color behind the carousel to the same as the iframe Spotify.
