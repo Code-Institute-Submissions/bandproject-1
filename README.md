@@ -4,15 +4,20 @@
 
 # Deadmu5
 Milestone Project One: User-Centric Frontend Development - Code Institute
-This Website was designed for the fans of world famous DJ, Deadmau5. My main idea for the website was to aim it around users looking for information or updates on the DJ i.e New music or information on his upcoming tour.
+This Website was designed for the fans of world famous DJ, Deadmau5. My aim for the website was to build it around users looking for information or updates on the DJ. The page highlights his newest music, some background information on the DJ, a way to get in contact  and what's coming up for the DJ in 2019.
 
 
 A live version can be found on [Github Pages](https://chrisoc19.github.io/bandproject/)
 
-Essentially, this part is your sales pitch.
+# UX
+When I was laying out this project, I wanted to make it as simple as possible, so I chose a one page layout, with different sections for different elements.
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+As a fan of the DJ, I want to be able to see pictures of the band and get more information about them.
+As a fan of the DJ, I would like to be able to listen to his songs find infromation on his upcoming tour.
+As a client, I would like to be able to hear his music and a way to contact and  check foravailability.
+I mocked up an early desktop-first layout using Balsamiq, which can be found [here](https://balsamiq.cloud/snckoo2/p15ebfw/r57E)
+
+
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
