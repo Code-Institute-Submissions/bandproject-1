@@ -18,29 +18,34 @@ As a user of the site, I would like to be able to listen to his songs find infro
 As a client, I would like to be able to hear his music and a way to contact and  check foravailability.
 I mocked up an early desktop-first layout using Balsamiq, which can be found [here](https://balsamiq.cloud/snckoo2/p15ebfw/r57E)
 
-#Features
+# Features
 
 
-#Existing Features
+# Existing Features
 Feature 1 - Carousel - allows user to see pictures of the DJ's 2019 cube which is his stage on tour, which they can scroll through.
 Feature 2 - Spotify iframe - allows user to hear the latest music from the DJ.
 Feature 3 - Youtube iframe - allows user to see the latest music videos from the DJ.
 Feature 4 - icon links - allows user to open a new tab and find all the music from the DJ.
 Feature 5 - image hover - In the gallery section if user hovers over a picture it expandes and adds a nice filter.
 Feature 6 - gives clients a way to  get in touch with the site, by filling in a form with the relevant information.
-
+Feature 7 -  Logo in nav bar is a link back to Homepage.
 # Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-HTML - Used for the structural elements of the site
-
 CSS - Used to style the HTML elements
 
 [Font Awesome](https://fontawesome.com/)- Used for icons- Facebook, Twitter,Youtube, Instagram. 
 
 [Bootstrap](https://getbootstrap.com/)- Used to give access to a multitude of helper classes for CSS
+[jQuery](https://jquery.com/)-Used for DOM manipulation
 
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+# Testing
+Carousel - I had issues with carousel with first use as was place outside of the main div. I moved it into the main div and this effected the background color of my iframe spoify section which I fixed by changing the background color behind the carousel to the same as the iframe Spotify.
+
+
+Go to the "Home" page
+Try an view all images in carousel. 
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
@@ -57,17 +62,24 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+# Deployment
+This site is hosted on Github Pages, deployed from the master branch. There are no differences between the development and deployed version.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+To clone this repository to run locally, you can do the following:
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+Create a new repository on Github
 
+Clone my repository with the following commands on your local machine:
+
+    ```
+    git clone https://chrisoc19.github.io/bandproject/.git
+    git remote rename origin upstream
+    git remote add origin *URL TO NEW GITHUB REPO*
+    git push origin master
+    ```
 Credits
+
+
 Content
 The text for section Y was copied from the Wikipedia article Z
 Media
