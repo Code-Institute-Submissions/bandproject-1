@@ -40,7 +40,7 @@ The page uses the a feature from Bootstrap, to highlight which part of the page 
 - [jQuery](https://jquery.com/)-Used for DOM manipulation
 
 # Testing
--We  provided an audio and video sections, where a samples of the Djs work is available to listen to or watch. Works across all screens. Needed to remove a set width from Spotify section so would meet  basic responsiveness requirements.
+- We  provided an audio and video sections, where a samples of the Djs work is available to listen to or watch. Works across all screens. Needed to remove a set width from Spotify section so would meet  basic responsiveness requirements.
 - About Text was disproportionately large had to style seperatly.
 - In gallery the images expand when mouse is hovered over them, images need to be clicked on for effect to work on smaller screens.
 -  a contact form was added, where clients can get in contact. Contact form isnt linked with anything.
