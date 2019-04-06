@@ -22,19 +22,20 @@ I mocked up an early desktop-first layout using Balsamiq, which can be found [he
 The page uses the a feature from Bootstrap, to highlight which part of the page is active on the navbar.
 
 # Existing Features
-Feature 1 - Carousel - allows user to see pictures of the DJ's 2019 cube which is his stage on tour, which they can scroll through.
-Feature 2 - Spotify iframe - allows user to hear the latest music from the DJ.
-Feature 3 - Youtube iframe - allows user to see the latest music videos from the DJ.
-Feature 4 - icon links - allows user to open a new tab and find all the music from the DJ.
-Feature 5 - image hover - In the gallery section if user hovers over a picture it expandes and adds a nice filter.
-Feature 6 - gives clients a way to  get in touch with the site, by filling in a form with the relevant information.
-Feature 7 -  Logo in nav bar is a link back to Homepage.
+- Feature 1 - Carousel - allows user to see pictures of the DJ's 2019 cube which is his stage on tour, which they can scroll through.
+- Feature 2 - Spotify iframe - allows user to hear the latest music from the DJ.
+- Feature 3 - Youtube iframe - allows user to see the latest music videos from the DJ.
+- Feature 4 - icon links - allows user to open a new tab and find all the music from the DJ.
+- Feature 5 - image hover - In the gallery section if user hovers over a picture it expandes and adds a nice filter.
+- Feature 6 - gives clients a way to  get in touch with the site, by filling in a form with the relevant information.
+- Feature 7 -  Logo in nav bar is a link back to Homepage.
 # Technologies Used
-CSS - Used to style the HTML elements
-
-- [Font Awesome](https://fontawesome.com/)- Used for icons- Facebook, Twitter,Youtube, Instagram. 
+- Html - Used for the structural elements of the site.
+- CSS - Used to style the HTML elements.
 
 - [Bootstrap](https://getbootstrap.com/)- Used to give access to a multitude of helper classes for CSS
+
+- [Font Awesome](https://fontawesome.com/)- Used for icons- Facebook, Twitter,Youtube, Instagram. 
 
 - [jQuery](https://jquery.com/)-Used for DOM manipulation
 
