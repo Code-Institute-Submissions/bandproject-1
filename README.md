@@ -43,7 +43,7 @@ The page uses the a feature from Bootstrap, to highlight which part of the page 
 - We  provided an audio and video sections, where a samples of the Djs work is available to listen to or watch. Works across all screens. Needed to remove a set width from Spotify section so would meet  basic responsiveness requirements.
 - About Text was disproportionately large had to style seperatly.
 - In gallery the images expand when mouse is hovered over them, images need to be clicked on for effect to work on smaller screens.
--  a contact form was added, where clients can get in contact. Contact form isnt linked with anything.
+-  a contact form was added, where clients can get in contact. Contact form isnt linked with anything. Had issues with spacing around submit button.
 - Any Links to outside sources i.e icons and social links will open a new tab.
 - nav-bar fits full width on large screens and changes to a dropdown menu for smaller screens.all links function. 
 - Footer I had a white space under my footer that with some help from slack got rid of by giving the conatiner-footer a bottom margin or -16px
