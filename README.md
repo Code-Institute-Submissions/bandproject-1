@@ -4,7 +4,7 @@
 
 # Deadmu5
 Milestone Project One: User-Centric Frontend Development - Code Institute
-This Website was designed for the fans of world famous DJ, Deadmau5. My aim for the website was to build it around users looking for information or updates on the DJ. The page highlights his newest music, some background information on the DJ, a way to get in contact  and what's coming up for the DJ in 2019.
+This Website was designed for the fans of world famous DJ, Deadmau5. My aim for the website was to build it around users looking for information or updates on the DJ. The site highlights his newest music, some background information on the DJ, a way to get in contact  and what's coming up for the DJ in 2019.
 
 
 A live version can be found on [Github Pages](https://chrisoc19.github.io/bandproject/)
@@ -79,19 +79,19 @@ Clone my repository with the following commands on your local machine:
     ```
 # Credits
 
-Content
+# Content
 
-For the gallery ideas where taken from https://mobirise.com/bootstrap-gallery/responsiveimagegallery.html
-The infromation on the dj in the about me page was taken from https://en.wikipedia.org/wiki/Deadmau5
-All other content was written by myself.
+-For the gallery ideas where taken from https://mobirise.com/bootstrap-gallery/responsiveimagegallery.html
+-The infromation on the dj in the about me page was taken from https://en.wikipedia.org/wiki/Deadmau5
+-All other content was written by myself.
 
-Media 
-Images taken from Google Search, and believed to qualify under fair use, due to nonprofit educational use.
-Videos where taken from Youtube.
-Playable album is from Spotify.
+# Media 
+-Images taken from Google Search, and believed to qualify under fair use, due to nonprofit educational use.
+-Videos where taken from Youtube.
+-Playable album is from Spotify.
 
 
-Acknowledgements
-I received inspiration for this site from visiting various band sites.
-My mentor  Maranatha Ilesanmi was a huge help throughout the project.
-Thanks to all members of the Code Institute Slack workspace
+# Acknowledgements
+-I received inspiration for this site from visiting various band sites.
+-My mentor  Maranatha Ilesanmi was a huge help throughout the project.
+-Thanks to all members of the Code Institute Slack workspace
