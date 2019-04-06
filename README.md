@@ -1,9 +1,13 @@
 
 
-# https://chrisoc19.github.io/bandproject/
+
 
 # Deadmu5
-One or two paragraphs providing an overview of your project.
+Milestone Project One: User-Centric Frontend Development - Code Institute
+This Website was designed for the fans of world famous DJ, Deadmau5. My main idea for the website was to aim it around users looking for information or updates on the DJ i.e New music or information on his upcoming tour.
+
+
+A live version can be found on [Github Pages](https://chrisoc19.github.io/bandproject/)
 
 Essentially, this part is your sales pitch.
 
